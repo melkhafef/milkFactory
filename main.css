@@ -1,0 +1,343 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    padding: 2px;
+    margin: 2px;
+}
+#moving button {
+    width: 100%;
+    background-color: lightseagreen;
+}
+#movingOther button {
+    width: 100%;
+    background-color: lightseagreen;
+}
+#moving {
+    position: fixed;
+    top: 0;
+    width: 10%;
+    height: 100%;
+}
+#movingOther {
+    position: fixed;
+    top: 0;
+    width: 10%;
+    height: 100%;
+}
+body{
+background-color: lightcoral;
+}
+#boxAndTime{
+    margin-top: 20px;
+    width: 20%;
+    height: 30%;
+    font-size: 50px;
+    text-align: center;
+}
+#boxAndTime input{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+}
+#boxAndTime #dateConstant{
+    width: 100%;
+    margin: 0 auto;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+#milk,
+#milkFT,
+#salaries,
+#others,#owners ,#production,#store,#sales,#summary,#specified,#othersBuy{
+    width: 55%;
+    height: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+text-align: right;
+padding-right: 1%;
+    background: #9260ff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #cdff60;
+}
+.flex {
+     display: flex;
+    flex-wrap: wrap;
+}
+button{
+    background: #cdff60;
+}
+button:hover{
+        background: #60cdff;
+}
+input,select{
+background:white;
+}
+h1{
+    width: 100%;
+    margin-top: 2px;
+text-align: center;
+}
+h2{
+  text-align: center;
+}
+#milk #sellers {
+    margin-right: 15%;
+    width:150px ;
+}
+#milk #amount {
+margin-right: 4.5%;
+width:150px;
+}
+#milk #price{
+  margin-right: 7%;
+  width:150px;
+}
+#milk #total{
+    margin-right: 13.5%;
+    width:150px;
+}
+
+#milk #date {
+    margin-right: 7%;
+    display: inline;
+}
+#from {
+     margin-right: 7%;
+     display: inline;
+}
+#to {
+     margin-right: 7%;
+     display: inline;
+}
+
+button {
+width: 100%;
+height: 40px;
+}
+.add,.update{
+    width: 35px;
+    height: 25px;
+}
+#milk #milkType {
+ margin-right: 15%;
+ width: 150px;
+}
+#milk #paid {
+ margin-right: 11%;
+ width: 150px;
+}
+#milk #remainder {
+ margin-right: 12%;
+ width: 150px;
+}
+#salaries #employees{
+     margin-right: 15%;
+     width: 150px;
+}
+#salaries #salary{
+     margin-right: 17%;
+     width: 150px;
+}
+#salaries #date{
+    display: inline;
+     margin-right: 12%;
+}
+
+#others #othersTypes{
+     margin-right: 17%;
+     width: 150px;
+}
+#others #amount{
+     margin-right: 16.5%;
+     width: 150px;
+}
+#others #cost{
+     margin-right: 16.5%;
+     width: 150px;
+}
+#others #totalCost{
+     margin-right: 13%;
+     width: 150px;
+}
+#others #date {
+    display: inline;
+    margin-right: 10%;
+}
+#owners #ownersNames{
+     margin-right: 17%;
+     width: 150px;
+}
+#owners #cash{
+     margin-right: 16.5%;
+     width: 150px;
+}
+#owners #paid{
+     margin-right: 16.5%;
+     width: 150px;
+}
+#owners #date {
+    display: inline;
+    margin-right: 10%;
+}
+#Buy #othersBuyTypes{
+     margin-right: 17%;
+     width: 150px;
+}
+#othersBuy #amount{
+     margin-right: 16.5%;
+     width: 150px;
+}
+#othersBuy #cost{
+     margin-right: 16.5%;
+     width: 150px;
+}
+#othersBuy #totalCost{
+     margin-right: 13%;
+     width: 150px;
+}
+#othersBuy #date {
+    display: inline;
+    margin-right: 10%;
+}
+table,th,td{
+    border: 1px solid #60cdff;
+    background-color: burlywood ;
+}
+tr:hover{
+    background-color: #cdff60;
+
+}
+#loading{
+    width: 100%;
+    height: 100%;
+}
+#milkTable{
+    width: 30%;
+}
+#salaryTable{
+    width: 20%;
+    margin-left: 10%;
+}
+#othersTable{
+    width: 30%;
+        margin-left: 8%;
+
+}
+#ownersTable{
+    width: 30%;
+        margin-left: 8%;
+
+}
+#othersBuyTable{
+    width: 30%;
+        margin-left: 8%;
+
+}
+#DivIdToPrint{
+display: none;
+}
+.hide{
+    display: none;
+}
+table{
+    width:350px;
+}
+#addseller,
+#updateseller,
+#addEmployee,
+#updateEmployee,
+#addOther,
+#addOwner,
+#addOtherBuy,
+#addOtherBuyName,
+#updateOther,
+#updateOwner,
+#updateOtherBuy,
+#updateOtherBuyName,
+#addProduct,
+#addBuy,
+#updateBuy,
+#updateProduct {
+    border: 1px dashed black;
+    background-color: bisque;
+}
+#addseller input,
+#updateseller input,
+#addEmployee input,
+#updateEmployee input,
+#addBuy input,
+#updateBuy input,
+#addOther input,
+#addOwner input,
+#addOtherBuy input,
+#addOtherBuyName input,
+#updateOther input,
+#updateOwner input,
+#updateOtherBuy input,
+#updateOtherBuyName input,
+#addProduct input,
+#updateProduct input {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#addseller button,
+#updateseller button,
+#addBuy button,
+#updateBuy button,
+#addEmployee button,
+#updateEmployee button,
+#addOther button,
+#addOwner button,
+#addOtherBuy button,
+#addOtherBuyName button,
+#updateOther button,
+#updateOwner button,
+#updateOtherBuy button,
+#updateOtherBuyName button,
+#addProduct button,
+#updateProduct button {
+    width: 80%;
+      margin-left: 10%;
+    margin-right: 10%;
+        }
+      
+
+#authentication{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 25%;
+    border: 2px solid black;
+    background-color: aquamarine;
+    padding: 50px;
+    text-align: center;
+}
+
+#specified #selectors {
+    width: 50% ;
+}
+#specified #buttons {
+    width: 40%;
+}
+#specified button {
+    width: 80%;
+}
+#specified{
+    width: 60%;
+    margin-left: 200px;
+}
+#productionsPrices input{
+    font-size: 13px;
+    width: 100px;
+
+}
+#productionsPrices {
+    margin-left: 40%;
+}
